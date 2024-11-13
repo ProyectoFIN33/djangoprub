@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    {% load static %}
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego de problemas ambientales</title>
+    <link href="https://fonts.googleapis.com/css?family=Raleway:200,300,400,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{% static 'css/estilos.css' %}">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/brython@3.10.5/brython.min.js"></script>
+</head>
+<style>
+     body {
+        background-color: #AED3E3/* Cambiar el color */
+    }
+   
+</style>
+<body>
+    <header class="hero-index4">
+        <div class="textos-hero">
+            <h1>Juego de problemas ambientales</h1>
+            
+            <nav class="nav-bar">
+                <a href="/">Inicio</a>
+                <a href="/about">Soluciones a problemas ambientales</a>
+                <a href="/acerca">Acerca de</a>
+            </nav>
+        </div>
+        
+        <div class="svg-hero" style="height: 150px; overflow: hidden;">
+            <svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;">
+                <path d="M0.00,49.98 C149.99,150.00 349.20,-49.98 500.00,49.98 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill: #AED3E3;"></path>
+            </svg>
+        </div>
+    </header>
+
+    <section class="wave-contenedor website">
+        <style>
+            /* Estilos CSS para centrar y agrandar el botón */
+            
+            /* Estilos del contenedor principal */
+            .wave-contenedor {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100vh;
+               
+            }
+    
+            /* Estilos para el botón dentro de .nav-bar3 */
+            .nav-bar3 a {
+                display: inline-block;
+                padding: 20px 40px; /* Tamaño del botón */
+                font-size: 1.8em; /* Fuente grande */
+                color: #fff;
+                background-color: #4CAF50;
+                text-decoration: none;
+                border-radius: 10px;
+                box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+                transition: background-color 0.3s ease;
+            }
+    
+           
+        </style>
+        <nav class="nav-bar3">
+            <a href="/juego">Jugar ahora</a>
+        </nav>
+    </section>
+
+    <footer>
+        <p>&copy; Derechos reservados 2024</p>
+    </footer>
+
+    <script src="https://kit.fontawesome.com/c15b744a04.js" crossorigin="anonymous"></script>
+</body>
+</html>

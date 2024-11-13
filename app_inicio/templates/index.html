@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    {% load static %}
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Problemas Ambientales</title>
+    <link href="https://fonts.googleapis.com/css?family=Raleway:200,300,400,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{% static 'css/estilos.css' %}">
+    <style>
+        body {
+            background-color:#a7f3c4 /* Cambiar el color */
+        }
+        
+        @keyframes fadeInUp {
+            0% {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            100% {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        .hidden {
+            opacity: 0;
+            transform: translateY(30px); /* Desplazado ligeramente hacia abajo */
+            transition: opacity 1s ease, transform 1s ease; /* Duración de la animación */
+        }
+
+        .visible {
+            opacity: 1;
+            transform: translateY(0); /* Posición original */
+        }
+        h2{
+            color: #3a6d1d
+        }
+        p{
+            color: #072e02
+        }
+
+    </style>
+</head>
+
+<body>
+    <header class="hero">
+        <div class="textos-hero">
+            <h1>Problemas Ambientales</h1>
+            
+            <nav class="nav-bar">
+               
+                <a href="/about">Soluciones a problemas ambientales</a>
+                
+                <a href="/index4">Juego de problemas ambientales</a>
+                <a href="/acerca">acerca de</a>
+            </nav>
+               
+    
+        </div>
+        
+        <div class="svg-hero" style="height: 150px; overflow: hidden;">
+            <svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;">
+                <path d="M0.00,49.98 C149.99,150.00 349.20,-49.98 500.00,49.98 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill: #a7f3c4;"></path>
+            </svg>
+        </div>
+    </header>
+
+    <section class="wave-contenedor website">
+        <img src="{% static 'img/problemas.jpg' %}" alt="Problemas Ambientales" class="imagen-animada">
+
+
+        <div class="contenedor-textos-main hidden">
+            <h2 class="titulo left">¿Que son los problemas ambientales?</h2>
+            <p class="parrafo">Los problemas ambientales son aquellas situaciones que surgen cuando las actividades humanas 
+                afectan de manera negativa al entorno natural, resultando en la degradación de los ecosistemas. Estos problemas 
+                incluyen la contaminación del aire, agua y suelo, el cambio climático, la deforestación, la pérdida de biodiversidad 
+                y la sobreexplotación de recursos naturales. Las consecuencias de estos problemas afectan tanto a los seres humanos 
+                como a los ecosistemas, 
+                lo que puede resultar en impactos graves en la salud, el bienestar y la estabilidad del planeta</p>
+           
+        </div>
+    </section>
+
+    <section class="info-last">
+        <div class="contenedor last-section">
+            <div class="contenedor-textos-main hidden">
+                <h2 class="titulo left">¿Cuales son los Problemas ambientale?</h2>
+                <p class="parrafo">
+                    <p>1. Aumento de gases de efecto invernadero y temperaturas globales.</p>
+                    <p>2. Contaminación del aire: Deterioro de la calidad del aire por combustibles fósiles.</p>
+                    <p>3. Contaminación del agua: Desechos industriales afectan ríos y océanos.</p>
+                    <p>4. Deforestación: Tala masiva que destruye bosques y hábitats.</p>
+                    <p>5. Pérdida de biodiversidad: Extinción de especies por destrucción de hábitats.</p>
+                    </p>
+               
+            
+               
+            </div>
+            <img src="{% static 'img/problemas1.jpg' %}" alt="Problemas Ambientales" class="imagen-animada">
+
+        
+    </section>
+    
+    <section class="wave-contenedor website">
+        <img src="{% static 'img/problemas2.jpg' %}" alt="Problemas Ambientales" class="imagen-animada">
+        <div class="contenedor-textos-main hidden">
+            <h2 class="titulo left">Causas de los problemas ambientales</h2>
+            <p class="parrafo">Las causas de los problemas ambientales son diversas y están
+                 principalmente relacionadas con las actividades humanas. Algunas de las principales causas 
+                 incluyen la sobreexplotación de recursos naturales, la industrialización, la urbanización descontrolada, 
+                 la deforestación, el uso excesivo de combustibles fósiles, la contaminación de los océanos y el suelo, y la 
+                 agricultura intensiva. Estas actividades alteran el equilibrio natural de los 
+                ecosistemas y contribuyen a fenómenos como el cambio climático, la pérdida de biodiversidad y la contaminación global</p>
+            
+        </div>
+    </section>
+
+    
+
+    <section class="info-last">
+        <div class="contenedor last-section">
+            <div class="contenedor-textos-main hidden">
+                <h2 class="titulo left">¿Como prevenir los Problemas Ambientales?</h2>
+                <p class="parrafo">
+                    <p>1. Uso sostenible de recursos: Consumir responsablemente para evitar la degradación ambiental.
+                    </p>
+                    <p>3. Educación ambiental: Concienciar a la población sobre problemas ambientales.
+                    </p>
+                    <p>4. Reforestación: Plantar árboles y conservar bosques para proteger la biodiversidad.
+                    </p>
+                    <p>5. Reciclaje: Fomentar el reciclaje y reducir residuos para evitar la contaminación.
+                    </p>
+                </p>
+                
+            </div>
+            <img src="{% static 'img/problemas4.jpg' %}" alt="Problemas Ambientales" class="imagen-animada">
+        </div>
+
+        
+    </section>
+
+
+    <section class="wave-contenedor website">
+        <img src="{% static 'img/problemas3.jpg' %}" alt="Problemas Ambientales" class="imagen-animada">
+        <div class="contenedor-textos-main hidden">
+            <h2 class="titulo left"> Problemas ambientales en Mexico</h2>
+            <p class="parrafo">
+                <p>1. Contaminación del aire: Altos niveles en ciudades debido al transporte y la industria.
+                </p>
+                <p>2. Deforestación: Pérdida de bosques por tala ilegal y urbanización.
+                </p>
+                <p>3. Desertificación: Degradación de tierras por sobreexplotación de recursos.
+                </p>
+                <p>4. Contaminación del agua: Ríos y lagos contaminados afectan a las comunidades.
+                </p>
+                <p>5. Pérdida de biodiversidad: Destrucción de hábitats y caza furtiva amenazan especies.
+                </p>
+            </p>
+            <a href="#top" class="button-link">
+                <button>
+                    <span class="text">volver al inicio</span>
+                </button>
+            </a>
+        </div>
+        
+    </section>
+    
+
+    
+     <footer>
+        <p>&copy; Derechos reservados 2024</p>
+    </footer>
+    <script>
+        const elements = document.querySelectorAll('.hidden');
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                } else {
+                    entry.target.classList.remove('visible');
+                }
+            });
+        }, { threshold: 0.1 });
+
+        elements.forEach(element => observer.observe(element));
+    </script>
+    <script src="https://kit.fontawesome.com/c15b744a04.js" crossorigin="anonymous"></script>
+</body>
+</html>
